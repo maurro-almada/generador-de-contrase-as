@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas | Password </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Genera una contraseña unica</h1>
+    </header>
+    <div id="main">
+        <div>
+            <label>
+                <span id="label_span">Cantidad de caracteres de contraseña:</span>
+                <input type="number" placeholder=" Ejemplo:  4" min="3" max="20"
+                    id="cantCaracteres">
+            </label>
+        </div>
+        <button id="boton">Crea contraseña</button>
+        <div id="main_password"></div>
+        <img src="./images/copyimg.png" alt="imagen copy" id="copyimg" style="display: none;">
+        <div id="doneCopy"></div>
+    </div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
